@@ -56,6 +56,7 @@ import java.util.Collections;
 import static org.jetbrains.kotlin.util.slicedMap.RewritePolicy.DO_NOTHING;
 
 public interface BindingContext {
+
     BindingContext EMPTY = new BindingContext() {
         @NotNull
         @Override
